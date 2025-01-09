@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", serif;
+}
+.login100-form-title {
+
+    display: block;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #555;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 33px;
+
+}
+
+.wrap-login100 {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -o-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    -ms-box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+
+
+
+}
+
+.wrap-input100 {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+
+.wrap-input100.rs1 {
+    border-top: none;
+}
+
+.container-login100-form-btn {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.login100-form-btn {
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #343a40;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #fff;
+    transition: all .4s;
+    line-height: 1.2;
+    text-transform: uppercase;
+    outline: none !important;
+    border: none;
+
+
+}
+
+.focus-input100-1, .focus-input100-2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.focus-input100-1::before {
+    top: -1px;
+    left: 0;
+}
+
+.focus-input100-1::before, .focus-input100-2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #4272d7;
+}
+
+.focus-input100-1::after {
+    top: 0;
+    right: -1px;
+}
+
+.focus-input100-1::after, .focus-input100-2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 0;
+    background-color: #4272d7;
+}
+
+.alert-validate::before{
+    content:attr(data-validate);
+    position:absolute;
+    max-width:70%;
+    background-color:#fff;
+    border:1px solid #c80000;
+    border-radius:2px;
+    padding:4px 25px 4px 10px;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+    right:12px;
+    pointer-events:none;
+    font-family:OpenSans-Regular;
+    color:#c80000;
+    font-size:13px;
+    line-height:1.4;
+    text-align:left;
+    visibility:hidden;
+    opacity:0;
+    -webkit-transition:opacity .4s;
+    -o-transition:opacity .4s;
+    -moz-transition:opacity .4s;
+    transition:opacity .4s
+}
+.alert-validate::after{
+    content:"?";
+    font-family:FontAwesome;
+    display:block;
+    position:absolute;
+    color:#c80000;
+    font-size:16px;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+    right:18px;
+}
+
+.alert-validate:hover:before{
+    visibility:visible;
+    opacity:1;
+}
+
+.login100-form-btn:hover {
+    background: #aba6a6;
+    color: #fff;
+}
+
+.validate-input {
+    position: relative;
+}
+
+input.input100 {
+    width: 100%;
+    height: 68px;
+    padding: 0 25px;
+}
+.input100 {
+    width: 100%;
+    display: block;
+    background: 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.2;
+}
+input {
+    outline: none;
+    border: none;
+    overflow: visible;
+}
+
+.p-r-55 {
+    padding-right: 55px;
+}
+
+.p-l-55 {
+    padding-left: 55px;
+}
+
+.p-t-65 {
+    padding-top: 65px;
+}
+
+.p-b-50 {
+    padding-bottom: 50px;
+}
+
+::after, ::before {
+    box-sizing: inherit;
+}
+
+
+
+
+

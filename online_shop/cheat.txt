@@ -1,0 +1,4 @@
+application follows mvc pattern
+m - model - db operations, delete update read from db
+v = view all variables are extracted to views trough controller
+c = controller show to which route to redirect, app operations, calculations, routes methods are placed in controller
